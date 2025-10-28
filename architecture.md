@@ -36,3 +36,4 @@ Component Collaboration Process
 2. The `Pos` object’s `save` method is used to recharge the `Card`, and `Pos` modifies the `type` and `money` of `Card` based on the amount.  
 3. The `Pos` object’s `pay` method is used for consumption. `Pos` calculates discounts based on the `type` of `Card`, deducts the balance, and triggers corresponding rules (e.g., car wash tickets).  
 4. All data changes are stored in the `Card` object. `Pos` is responsible for business logic judgment, and `Test` simulates user operation processes.
+Recharge via the `save()` method of the `Pos` class, and complete consumption through the `pay()` method.
