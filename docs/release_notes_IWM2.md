@@ -34,11 +34,30 @@ Core Features Implemented
 
 ## Project Structure
 ```
-com/
-└── itheima/
-    └── demo4/
-        ├── Card.java  // Fuel card entity class
-        └── Pos.java   // Recharge & consumption business class
+PetroPay-Member-System/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── src/
+│   ├── __init__.py
+│   ├── product.py      (150 lines)
+│   ├── sales.py        (130 lines)
+│   └── main.py         (100 lines)
+├── tests/
+│   ├── __init__.py
+│   ├── test_sample.py      (12 tests)
+│   ├── test_sales.py       (17 tests)
+│   └── test_integration.py (3 tests)
+├── docs/
+│   ├── release_notes_IWM1.md
+│   └── release_notes_IWM2.md
+├── screenshots/
+├── Dockerfile
+├── .dockerignore
+├── requirements.txt
+├── README.md
+├── architecture.md
+└── plan.md
 ```
 
 
