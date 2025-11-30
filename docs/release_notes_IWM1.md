@@ -23,12 +23,13 @@ Release Date: November 2025
  Project Structure Setup
 Created the `com.itheima.demo4` package containing core business classes:
 ```
-com/
-└── itheima/
-    └── demo4/
-        ├── Pos.java  // Contains core logic for recharge and consumption
-        └── Card.java // Fuel card entity class (with type and balance attributes and get/set methods)
-```
+PetroPay-Member-System/
+├── README.md
+├── architecture.md
+├── plan.md
+└── .github/
+    └── workflows/
+
 
 Logic Design
 - Distinguish customer levels based on the `type` field of the `Card` class (0 = gold card, 1 = silver card, others = regular)
