@@ -1,4 +1,3 @@
-
 Release Notes - Fuel Card Recharge Business System V1.0.0
 
 Version 1.0.0 - Initial Function Implementation
@@ -20,7 +19,7 @@ Release Date: November 2025
   - Regular users: No discount, deduct the original amount
   - Prompt for recharge when the balance is insufficient for all user types
 
- Project Structure Setup
+## Project Structure Setup
 Created the `com.itheima.demo4` package containing core business classes:
 ```
 PetroPay-Member-System/
@@ -31,11 +30,11 @@ PetroPay-Member-System/
     └── workflows/
 
 
-Logic Design
+##Logic Design
 - Distinguish customer levels based on the `type` field of the `Card` class (0 = gold card, 1 = silver card, others = regular)
 - Maintain the balance in the card through the `money` field to ensure the amount is correctly added/deducted during recharge/consumption
 
- Features Planned
+ ##Features Planned
 - Add validity period management for customer levels
 - Implement log function for recharge/consumption records
 - Support batch recharge and preferential activity configuration
@@ -45,7 +44,7 @@ Team Collaboration
 - Completed coding and testing of core business logic
 - Defined interaction specifications between the `Card` entity class and the `Pos` business class
 
- Next Steps
+ ##Next Steps
 - Write unit tests to cover recharge and consumption scenarios
 - Optimize user prompt copy to improve interaction experience
 - Connect to the database to store card information
